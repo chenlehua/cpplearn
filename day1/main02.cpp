@@ -20,7 +20,7 @@ int main()
     int a;     // 告诉c编译器分配4个字节的内存
     int b[10]; // 告诉c编译器分配40个字节的内存
     printf("b:%zu, b+1:%zu,&b:%zu,&b+1:%zu\n", (size_t)b, (size_t)(b + 1), (size_t)&b, (size_t)(&b + 1));
-    // b代表数组首地址，b+1代表数组首地址+4个字节，&b代表整个数组的地址，&b+1代表数组首地址+40个字节
+    // b代表数组首元素的地址，b+1代表数组首地址+4个字节，&b代表整个数组的地址，&b+1代表数组首地址+40个字节
 
     printf("sizeof(b):%lu,sizeof(a):%lu\n", sizeof(b), sizeof(a));
 
