@@ -1,0 +1,1 @@
+add_executable(tree-1 main.cpp)
