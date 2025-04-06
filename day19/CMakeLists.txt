@@ -1,2 +1,5 @@
 add_executable(day19-1 容器值语义.cpp)
 add_executable(day19-2 函数对象.cpp)
+add_executable(day19-3 一元谓词.cpp)
+add_executable(day19-4 二元谓词.cpp)
+add_executable(day19-5 函数适配器.cpp)
